@@ -1,0 +1,1 @@
+all image resources needed by this project must be added to this folder CCConsole/styles/img

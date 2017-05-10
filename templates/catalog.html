@@ -1,0 +1,9 @@
+<div class="col-lg-2 col-md-2 col-sm-2">
+    <h4 id="Home ">Catalog</h4>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="categoryItem in mainCategories.categories"
+            ng-click="onCategoryItemClick(categoryItem)">
+            {{categoryItem.name}}
+        </li>
+    </ul>
+</div>

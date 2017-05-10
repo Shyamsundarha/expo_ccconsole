@@ -1,0 +1,30 @@
+<html ng-app="main.module">
+
+<head>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-loader/angular-loader.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" href="styles\css\styles.css" />
+    <link rel="stylesheet" href="styles\css\lib\bootstrap.min.css" />
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="controllers/MainCtrl.js"></script>
+    <script type="text/javascript" src="controllers/LoginCtrl.js"></script>
+    <script type="text/javascript" src="controllers/CatalogCtrl.js"></script>
+    <script type="text/javascript" src="controllers/OrderManagementCtrl.js"></script>
+    <script type="text/javascript" src="controllers/OrderSummaryCtrl.js"></script>
+    <script type="text/javascript" src="controllers/BookAppointmentCtrl.js"></script>
+    <script type="text/javascript" src="controllers/CategoryDetailsCtrl.js"></script>
+    <script type="text/javascript" src="controllers/HeaderBarCtrl.js"></script>
+    <script type="text/javascript" src="services/AppServices.js"></script>
+    <script type="text/javascript" src="services/RestServices.js"></script>
+    <script type="text/javascript" src="services/CartItem.js"></script>
+    <script type="text/javascript" src="services/ConstServices.js"></script>
+    <script type="text/javascript" src="services/CacheManagerService.js"></script>
+    <script type="text/javascript" src="directives/categoryItem.js"></script>
+</head>
+
+<body ng-controller="MainCtrl" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div ng-view></div>
+</body>
+
+</html>

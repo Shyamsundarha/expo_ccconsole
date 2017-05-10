@@ -1,0 +1,17 @@
+<div class="col-lg-12 col-md-2 col-sm-2">
+    <h4 class="Home ">items - {{category.items.length}}</h4>
+    <div class="list-group">
+        <span ng-repeat="item in category.items ">
+             <div class="col-lg-6">
+             <category-item data="item">
+   			 </caegory-item>
+   			 </div>
+ 			<div class="col-lg-6">
+			    <a class="list-group-item">{{item.name}}<br>₹ {{item.price.base_price}} ({{item.duration}} Min)
+               <button ng-click="clickMe()">Click me</button> {{clicked}}</a>
+
+ 			</div>
+        </span>
+        <br>
+    </div>
+</div>

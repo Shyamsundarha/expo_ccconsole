@@ -1,0 +1,139 @@
+/*All style definition for this project should be added here*/
+
+body {
+    height: 570px;
+    background-image: radial-gradient(49% 97%, #FFFFFF 50%, #EEEEEE 100%);
+    position: relative;
+}
+
+.presto_img_login {
+    width: 80px;
+    margin-top: 200px;
+}
+
+.presto_img_catalog {
+    width: 62px;
+    float: left;
+    margin-left: 0px;
+    position: absolute;
+    left: 15;
+}
+
+.mainNavbar {
+    background-color: #f7f7f7;
+    margin: 0 -15px 0px -15px;
+    padding: 10 0;
+}
+
+.input_phone {
+    font-weight: bold;
+    font-family: arial;
+}
+
+.logo_caption {
+    clear: left;
+    color: black;
+    position: absolute;
+    left: 80;
+}
+
+#search1 {
+    border-radius: 25px;
+    padding: 5px 20px 5px 20px;
+}
+
+#phone1 {
+    border-radius: 10px;
+}
+
+#logout1 {
+    border-radius: 25px;
+    padding: 5px 25px 5px 25px;
+    margin-left: 10px;
+}
+
+.catalog_click {
+    text-decoration: none;
+    color: black;
+}
+
+.catalog_click:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.borderBottomForm {
+    border-bottom: 1px solid #eee;
+}
+
+.Caption {
+    font-weight: 200;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.loginSubHeading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.loginForm input {
+    border-radius: 0px;
+    border: 1px solid #eee;
+    padding: 20px 10px;
+    border-top: 0px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.loginForm input:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.loginForm input:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.loginForm input:focus,
+.loginForm input:active,
+textarea,
+textarea:active,
+textarea:active {
+    outline: none !important;
+    border-color: #eee !important;
+    box-shadow: none !important;
+}
+
+.loginButton {
+    background-color: #F7B745;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #F7B745;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 2px #999;
+    color: white;
+}
+
+.loginButton.focus,
+.loginButton.focus:hover,
+.loginButton.active,
+.loginButton.active:focus,
+.loginButton.active:hover,
+.loginButton:hover,
+.loginButton:active,
+.loginButton:active:focus,
+.loginButton:focus {
+    background-color: #F7B745;
+    border: 1px solid #F7B745;
+    outline: none;
+}
+
+.Home {
+    font-family: Arial;
+    font-size: 16px
+}

@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row formTopPadding">
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-8 col-md-8">
+            <div class="row borderBottomForm">
+                <div class="col-lg-2 col-md-2"></div>
+                <div class="col-lg-8 col-md-8">
+                    <span ng-init="Main_image = 'styles/img/presto_logo_black.png'">
+                    <img class="presto_img_login" ng-src="{{Main_image}}">
+                    <h1 class="Caption">Login to Presto CC Console</h1>
+                </div>
+                <div class="col-lg-2 col-md-2"></div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2"></div>
+    </div>
+            <div class="row">
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-8 col-md-8">
+            <div class="row borderBottomForm">
+                <div class="col-lg-2 col-md-2"></div>
+                <div class="col-lg-8 col-md-8">
+                    <h5 class="loginSubHeading">Login using your email and password</h5>
+                    <div class="form loginForm">
+                        <input class="form-control formInput" type="text" placeholder="john.smith@domain.com" value="ccagent1@bfc.com" ng-model="employee.email" required="required">
+                        <input class="form-control formInput" type="password" placeholder="password" name="test1234" ng-model="employee.password" required="required">
+                    </div>
+                    <input type="submit" class="button loginButton" ng-click="onLogin()" value="Login">
+                </div>
+                <div class="col-lg-2 col-md-2"></div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2"></div>
+    </div>
+</div>

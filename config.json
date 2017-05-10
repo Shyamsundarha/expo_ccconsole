@@ -1,0 +1,16 @@
+{
+    "presto_config": {
+        "staging": {
+            "server_config": {
+                "host": "",
+                "app_id": "",
+                "merchant_id": ""
+            }
+        },
+        "production": {
+            "host": "",
+            "app_id": "",
+            "merchant_id": ""
+        }
+    }
+}

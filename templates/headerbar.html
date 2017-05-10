@@ -1,0 +1,24 @@
+<nav class="mainNavbar
+">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar" style="background-color:black"></span>
+                <span class="icon-bar" style="background-color:black"></span>
+                <span class="icon-bar" style="background-color:black"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="presto_img_catalog" ng-src="{{Main_image}}"><span class="logo_caption">CC Console</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <span ng-init="Main_image = 'styles/img/presto_logo_black.png'"></span>
+            <ul class="nav navbar-nav navbar-right">
+                <form class="navbar-form navbar-right">
+                    <span class="input_phone">Enter customer contact number</span>
+                    <input type="text" class="form-control" id="phone1" placeholder="Phone number" ng-model="contact">
+                    <button type="submit" class="btn btn-warning" id="search1" ng-click="searchBtn()">Search</button>
+                    <button type="submit" class="btn btn-danger" id="logout1" ng-click="logoutBtn()">Logout</button>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>
